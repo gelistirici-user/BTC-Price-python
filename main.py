@@ -31,34 +31,4 @@ if __name__ == "__main__":
 
         time.sleep(config['timeout'])
 
-
-
-
-    
-
-
-
-
-
-a = """def get_timeout():
-    with open('timeout.txt', 'r', encoding='UTF-8') as f:
-        content = f.read()
-        return int(content)
-
-hook = Webhook('webhhook uri')
-timeout = get_timeout()
-
-while True:
-    now = datetime.datetime.now()
-    active_time = now.strftime("%Y-%m-%d %H:%M:%S")
-
-    data = get_data('https://api.coindesk.com/v1/bpi/currentprice/CNY.json')
-
-    USD = data['bpi']['USD']['rate_float']
-
-    content = f" - BTC/USDT **{USD} $** değerinde. **[{active_time}]**"
-
-    hook.send(content)
-    print(f'Gönderildi. {active_time}')
-
-    time.sleep(timeout)"""
+"""R10 - Gelistirici"""
