@@ -1,4 +1,4 @@
 {
-    "webhook": "https://discord.com/api/webhooks/880067154651807744/4Jl1c13BYyJsmSZJnAaHcNqxbkG-rOEtjnBc4sd5qGIsQT55iAu430QtrIgFj8fSiFtQ",
-    "timeout": 8
+    "webhook": "",
+    "timeout": 3600
 }
