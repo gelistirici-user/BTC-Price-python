@@ -13,6 +13,7 @@ def send_hook(hook, message):
     hook.send(message)
 
 if __name__ == "__main__":
+    print("R10 - Gelistirici")
     url = 'https://api.coindesk.com/v1/bpi/currentprice/CNY.json'
     headers = {"user-agent": "Mozilla/5.0"}
     config = config()
@@ -31,4 +32,4 @@ if __name__ == "__main__":
 
         time.sleep(config['timeout'])
 
-"""R10 - Gelistirici"""
+
